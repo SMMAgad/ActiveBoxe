@@ -17,6 +17,7 @@ body {
   background-size: cover;
   height: 600px;
   margin: 0;
+  color: #ddd;
 
 }
 
@@ -33,7 +34,7 @@ body {
 }
 
 .dif-color {
-  color: white;
+  color: #ea865d;;
 
 }
 
@@ -63,8 +64,19 @@ body {
 
 }
 
+.nav .dif-color {
+  color: #ea865d;
+
+
+}
+
+.nav a:hover {
+  color:#ea865d;
+}
+
 #showcase hr {
   width: 88%;
+  background-color: #ea865d;
 }
 
 
@@ -77,18 +89,24 @@ body {
 
 .showcase h1 {
   font-size: 35px;
-  color: white;
+  color:white;
 
 }
 
+
+
 .showcase a {
-  background: white;
+  background: #ea865d;;
   padding: 25px;
   text-decoration: none;
-  color:#212424;
+  color:white;
   font-size: 20px;
   border-radius: 5px;
 }
+
+.showcase a:hover {
+  background: white;
+  color:#526063;;}
 
 
 .showcase p {
@@ -96,9 +114,6 @@ body {
   margin-bottom: 20px;
   color: white;
 }
-
-
-
 
 
 
@@ -134,7 +149,7 @@ body {
 #grid {
   display: grid;
   grid-template-columns: 2fr 2fr 2fr 2fr;
-  grid-gap: 15px;
+  grid-gap: 1px;
 }
 
 #grid img {
@@ -175,7 +190,7 @@ padding-left: 60px;
 }
 
 .employee h5 {
-  color:  #87222d;
+  color:  #ea865d;
 }
 
 .employee h3 {
@@ -183,8 +198,8 @@ padding-left: 60px;
 }
 
 .employee a:hover {
-  background-color:#87222d;
-  color: white;
+  background-color:#ddd;
+  color: #ea865d;
 }
 
 
@@ -192,7 +207,7 @@ padding-left: 60px;
 #testimonails {
   width: 100%;
   height: 400px;
-  background-color: #87222d;
+  background-color: #ea865d;
   margin-top: 40px;
 
 }
@@ -201,12 +216,79 @@ padding-left: 60px;
   width: 500px;
   float: left;
 }
-}
+
 
 #testimonails .text {
 float: right;
+padding: 50px;
 width: 500px;
+color: #ddd;
+}
+
+.text h3 {
+  font-size: 30px;
+}
+
+.text p {
+  font-size: 20px;
+}
 
 
+#quote {
+  height: 300px;
 
+}
+
+.quote {
+text-align: center;
+padding-top: 50px;
+color: #526063;
+}
+
+.quote p {
+  margin-bottom: 50px;
+}
+.quote a {
+  text-decoration: none;
+  background: #00a8ff;
+  color: black;
+  padding: 20px;
+
+}
+
+.info {
+
+  padding:30px;
+  background: #ea865d;
+  color:#ddd;
+  height: 130px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+}
+
+
+#info a {
+text-align: center;
+color: #ddd;
+border: 0.5px solid #ddd;
+padding: 10px 15px;
+margin: 2px;
+border-radius: 5px;
+}
+
+.share ul {
+  padding-left: 0px;
+
+}
+
+.about {
+  width: 400px;
+}
+footer p {
+  background: #ddd;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+  color: #526063;
 }
